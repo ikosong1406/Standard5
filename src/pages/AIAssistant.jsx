@@ -144,26 +144,9 @@ export default function AiAssistant({ setActiveTab }) {
         }}
       />
 
-      {/* Hero Header */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-12 text-center space-y-4">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#EAFCEF] border border-[#00D66C]/40 text-[#004A24] text-xs font-extrabold shadow-2xs">
-          <HiSparkles className="text-[#00D66C]" />
-          <span>Clinical AI Assistant • Live Interactive Demo</span>
-        </div>
-
-        <h1 className="text-4xl sm:text-6xl font-black text-[#121812] tracking-tight leading-tight">
-          Experience the future of <br />
-          <span className="text-[#00D66C]">clinical intelligence</span> in action.
-        </h1>
-
-        <p className="text-xs sm:text-sm text-gray-600 font-medium max-w-2xl mx-auto leading-relaxed">
-          MediAI assists physicians and clinical teams with real-time diagnostic synthesis, biomarker parsing, and drug interaction safety checks. Try the live interactive simulator below.
-        </p>
-      </section>
-
 
       {/* Main Interactive Sandbox Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 mt-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
           {/* Left Column: Clinical Preset Controls */}
@@ -203,26 +186,6 @@ export default function AiAssistant({ setActiveTab }) {
                   All clinical reasoning models operate within encrypted, isolated environments ensuring zero data leakage.
                 </p>
               </div>
-            </div>
-
-            {/* Doctor Testimonial Card */}
-            <div className="bg-[#D3F5E1]/90 backdrop-blur-md p-6 rounded-3xl space-y-3">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white shadow-xs">
-                  <img 
-                    src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=200&q=80" 
-                    alt="Dr. Sarah Jenkins - Lead Neurologist" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div>
-                  <h4 className="text-xs font-extrabold text-[#002B14]">Dr. Sarah Jenkins, MD</h4>
-                  <p className="text-[10px] text-emerald-800 font-semibold">Chief of Medicine • St. Jude Health</p>
-                </div>
-              </div>
-              <p className="text-xs text-[#00381B] font-medium leading-relaxed italic">
-                "MediAI reduces our clinical documentation time by 40%. It acts as an incredible second reader for complex biomarker trends."
-              </p>
             </div>
           </div>
 
@@ -389,7 +352,7 @@ export default function AiAssistant({ setActiveTab }) {
             </div>
             <h4 className="text-sm font-black text-[#121812]">Zero Data Retention</h4>
             <p className="text-xs text-gray-500 font-medium leading-relaxed">
-              Patient data is processed in-memory and never used to train public machine learning models.
+              Patient data is processed in memory and never used to train public machine learning models.
             </p>
           </div>
 
@@ -412,7 +375,7 @@ export default function AiAssistant({ setActiveTab }) {
         <div className="bg-[#032313] rounded-[36px] p-8 sm:p-14 text-center text-white space-y-6 relative overflow-hidden shadow-2xl">
           
           <div className="relative z-10 max-w-2xl mx-auto space-y-4">
-            <h2 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
+            <h2 className="text-3xl font-black tracking-tight leading-tight">
               Ready to deploy MediAI in your clinical workflow?
             </h2>
             <p className="text-xs sm:text-sm text-gray-300 font-medium leading-relaxed">
